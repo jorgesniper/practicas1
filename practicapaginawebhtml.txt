@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TACOS "EL JEFE"</title>
+</head>
+<body>
+    <HEAder>
+        <h1>TACOS "EL JEFE"</h1>
+    </HEAder>
+    <section>
+    <img src="./tacos el jefe.png" alt="logo tacos">
+
+    <h2>Menú</h2>
+    <ul>
+        <li></li>
+    </ul>
+    <h3>Tacos grandes</h3>
+    <p>Todos incluyen nopales y cebollas</p>
+    <ul>
+        <li>Bisteck...............$30</li>
+        <li>Chorizo...............$30</li>
+        <li>Chuleta...............$30</li>
+        <li>Pastor................$30</li>
+        <li>Campechanas...........$30</li>
+    </ul>
+    
+    <h3>Tacos pequeños</h3>
+    <p>Con cilantro y cebolla</p>
+    <ul>
+        <li>Bisteck...............$15</li>
+        <li>Chorizo...............$15</li>
+        <li>Chuleta...............$15</li>
+        <li>Pastor................$15</li>
+        <li>Campechanas...........$15</li>
+    </ul>
+
+    <h3>Especiales</h3>
+    <p>Haz tu combo con refresco por $10 pesos mas</p>
+    <dl>
+        <dt><B>Labrador</B>.....................$40</dt>
+        <dd>-Tortilla de maíz con pollo asado</dd>
+        <dt><B>Pastor Aleman</B>................$40</dt>
+        <dd>-tortilla de harina con carne de res y queso</dd>
+        <dt><B>Pug</B>..........................$40</dt>
+        <dd>-Tortilla de maíz con chuleta</dd>
+        <dt><B>El adoptado</B>..................$40</dt>
+        <dd>-Tortilla de maíz con pastor</dd>
+    </dl>
+</section>
+
+    <hr>
+    <section>
+
+    <h2>Ubicación</h2>
+    <h3>Sucursales</h3>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Centro</td>
+            <td><a href="https://goo.gl/maps/6S65NAyNYfkALwfU9" target="_blank">5 de Mayo 124, Zona Centro.</a></td>
+            <td>L - D 24HRS</td>
+        </tr>
+        <tr>
+            <td>Sur</td>
+            <td><a href="https://goo.gl/maps/7pqMfcWzCaT3Vzrb7" target="_blank">Av Aguascalientes Sur 114A, Prados del Sur.</a></td>
+            <td>L - D 5PM A 3 AM</td>
+        </tr>
+        <tr>
+            <td>Norte</td>
+            <td><a href="https://goo.gl/maps/pfGSfUBz9nrNErZS6" target="_blank">Av. Fundición 1514a, Olivares Santana.</a></td>
+            <td>L - D 5PM A 3AM</td>
+        </tr>
+    </table>
+</section>
+
+    <hr>
+<section>
+
+    <h2>Pedidos</h2>
+    <h3>Has tu pedido aquí</h3>
+
+    <form action="">
+        <p>¿De que taqueria quieres?</p>
+    <select>
+        <option value="Centro">Centro</option>
+        <option value="Sur">Sur</option>
+        <option value="Norte">Norte</option>
+    </select>
+
+    <p>¿De que tacos quieres?</p>
+    <input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+    <label for="Bisteck">Bisteck</label>
+    <input type="number" id="BisteckNumber" name="BisteckNumber" placeholder="¿Cuántos?">
+    <br>
+    <input type="checkbox" id="Chorizo" name="Chorizo" value="Chorizo">
+    <label for="Chorizo">Chorizo</label>
+    <input type="number" id="ChorizoNumber" name="ChorizoNumber" placeholder="¿Cuántos?">
+    <br>
+    <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+    <label for="Pastor">Pastor</label>
+    <input type="number" id="PastorkNumber" name="PastorkNumber" placeholder="¿Cuántos?">
+    <br>
+    <input type="checkbox" id="Chuleta" name="Chuleta" value="Chuleta">
+    <label for="Chuleta">Chuleta</label>
+    <input type="number" id="ChuletakNumber" name="ChuletakNumber" placeholder="¿Cuántos?">
+    <br>
+    <input type="checkbox" id="Campechanas" name="Campechanas" value="Campechanas">
+    <label for="Campechanas">Campechanas</label>
+    <input type="number" id="CampechanasNumber" name="CampechanasNumber" placeholder="¿Cuántos?">
+    
+
+    <br><br>
+    <label for="Nombre">Nombre:</label>
+    <input type="text" id="Nombre" name="Nombre" placeholder="¿Cómo te llamas?">
+
+    <br><br>
+    <label for="Teléfono">Teléfono:</label>
+    <input type="text" id="Teléfono" name="Teléfono" placeholder="¿Cúal es tu teléfono?">
+
+    <br><br>
+    <label for="Direccion">Direccion:</label>
+    <input type="text" id="Direccion" name="Direccion" placeholder="¿Cúal es tu dirección?">
+
+    <button type="submit"> Enviar pedido</button>
+    <br><br>
+    </form>
+</section>
+</body>
+</html>

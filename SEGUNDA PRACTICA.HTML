@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Explicación de elementos compuestos launchX</h1>
+    <!-- LABELS / ETIQUETAS -->
+    <label for="imput1">Ejemplo de imput de texto</label>
+    <br>
+    <!-- Entradas / imputs -->
+    <input type="text" id="imput1" name="imput1">
+    <br><br>
+
+    <hr>
+    <!-- tipos de imputs -->
+    <h2>imput de texto</h2>
+    <label for="correo1">input de correo</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+
+    <label for="numero1">input de numero</label><br>
+    <input type="number" id="numero1" name="numero1"><br><br>
+
+    <label for="psw1">input de password</label><br>
+    <input type="password" id="psw1" name="psw1"><br><br>
+
+    <label for="tel1">input de telefono</label><br>
+    <input type="tel1" id="tel1" name="tel1" maxlength="10"><br><br>
+
+    <label for="url1">input de url</label><br>
+    <input type="url1" id="url1" name="url1"><br><br>
+
+    <hr>
+
+    <h2>input de selección multiple</h2>
+    <input type="checkbox" id="topping1" name="topping1" value="cebolla">
+    <label for="topping1">tacos de cebolla</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="cilantro">
+    <label for="topping2">tacos de cilantro</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="salsa">
+    <label for="topping2">tacos de salsa</label><br><br>
+
+    <h2>input de seleccion unica</h2>
+    <input type="radio" id="roja" name="salsas" value="roja">
+    <label for="roja">roja</label><br>
+    <input type="radio" id="verde" name="salsas" value="verde">
+    <label for="verde">verde</label><br>
+    <input type="radio" id="guacamole" name="salsas" value="guacamole">
+    <label for="guacamole">guacamole</label><br><br>
+
+    <h2>select</h2>
+    <label for="tacos">de que la orden joven</label>
+    <select name="tacos" id="tacos">
+        <option value="suadero">suadero</option>
+        <option value="pastor">pastor</option>
+        <option value="campechanos">campechanos</option>
+        <option value="tripa">tripa</option>
+    </select>
+
+    <h2>select con input</h2>
+    <label for="refresco">elige tu refresco favorito</label><br>
+    <input list="refresco">
+    <datalist id="refresco">
+        <option value="cocacola">
+        <option value="manzana">
+        <option value="naranja">
+        <option value="mango">
+        <option value="guayaba">
+    </datalist>
+    <br><br>
+
+    <hr>
+
+    <h2>input de fecha</h2><br>
+    <input type="date" id="fecha1" name="fecha1"><br>
+    <input type="datetime-local" id="fecha2" name="fecha2"><br>
+    <input type="week" name="fecha3" id="fecha3"><br>
+    <input type="time" name="fecha4" id="fecha4"><br>
+    <input type="month" name="fecha5" id="fecha5"><br><br>
+
+    <hr>
+
+    <h2>input de archivo</h2>
+    <input type="file" name="archivo1" id="archivo1"><br><br>
+    
+    <h2>input de color</h2><br>
+    <input type="color" id="color1" name="color1"><br><br>
+
+    <h2>input de rango</h2>
+    <label for="vol">volumen (entre 0 y 50):</label><br>
+    <input type="range" name="vol" id="vol" min="0" max="50"><br>
+
+    <hr>
+
+    <h2>input de boton</h2>
+    <input type="reset"><br>
+    <input type="submit"><br>
+    <input type="button" name="boton1" id="boton1" value="boton1" onclick="alert('bienvenidos explores');"><br><br>
+
+    <hr>
+    <h2>ejemplo de formulario</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">NOMBRE:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <input type="submit" value="submit">
+        <input type="reset">
+    </form>
+    <label for="apellido">apellido</label>
+    <input type="text" name="apellido" id="apellido" form="form1">
+</body>
+</html>

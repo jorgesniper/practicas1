@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 400px;
+}
+
+div{
+    height: 400px;
+}
+
+.fondoCOLOR{
+    background-color: #0f6666;
+}
+
+.fondoOpacidad{
+    background-color: #5d0c0c;
+    opacity: 0.6;
+}
+
+.fondoImagen{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/Dragon_Ball_Super.png");
+}
+
+.fondoRepetidoX{
+    background-image: url("https://static.wikia.nocookie.net/doblaje/images/1/1a/Dragon_Ball_Super_.jpg/revision/latest/top-crop/width/360/height/450?cb=20170805194253&path-prefix=es");
+    background-repeat: repeat-x;
+}
+
+.fondoRepetidoY{
+    background-image: url("https://www.infobae.com/new-resizer/9lWPHk5WY8awVpQtylbNUsKM42o=/1200x900/filters:format(webp):quality(85)//cloudfront-us-east-1.images.arcpublishing.com/infobae/NWVFODOLI5E7JK4PYWBS44J7OQ.jpg");
+    background-repeat: repeat-y;
+}
+
+.fondoNORepetido{
+    background-image: url("https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/98ea4207e23a2ea3e3af39ad641d8800.jpeg");
+    background-repeat: no-repeat;
+}
+
+.fondoPosicion{
+    background-image: url("https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/98ea4207e23a2ea3e3af39ad641d8800.jpeg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.fondoCompleto{
+    background-image: url("https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/98ea4207e23a2ea3e3af39ad641d8800.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
